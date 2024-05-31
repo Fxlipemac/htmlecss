@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        h1 {
+            text-align: center;
+            font-size: 45px;
+            color: #054e4e;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #7a7a7a;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        nav {
+            background-color: #067a6f;
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 5px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        
+        main {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px grey;
+            width: 800px;
+            padding: 10px;
+            margin: auto;
+        }
+
+        article {
+            background-color: lightgray;
+            margin-bottom: 10px;
+            margin-left: 5px;
+        }
+
+        article > h2 {
+            text-align: center;
+        }
+
+        article > aside {
+            background-color: #838383;
+        }
+
+        article > p {
+            margin-left: 5px;
+        }
+
+        footer {
+            background-color: #043f39;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        aside > p {
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Menu</a>
+            <a href="#">Notícias</a>
+            <a href="#">Artigos</a>
+            <a href="#">Links</a>
+            <a href="#">Ajuda</a>
+        </nav>
+    </header>
+    <main>
+         <section id="assuntos">
+            <article>
+                <h2>Energias Renováveis</h2>
+                <p>Energias renováveis são fontes de energia obtidas de recursos naturais que se regeneram naturalmente, como a luz solar, vento, água e biomassa. Estas fontes são sustentáveis e produzem menos impacto ambiental comparado aos combustíveis fósseis. A utilização de energias renováveis contribui para a redução das emissões de gases de efeito estufa e combate às mudanças climáticas.</p>
+                <aside>
+                    <p>Artigo escrito por Fxlipemac</p>
+                </aside>
+            </article>
+         </section>
+         <section id="notícias">
+            <article>
+                <h2>Notícias</h2>
+                <p>Recentemente, Portugal deu um passo significativo para impulsionar as energias renováveis com a aprovação de incentivos fiscais no Orçamento de Estado 2024. Esta medida inclui benefícios para tecnologias sustentáveis, como solar, eólica e geotérmica, incentivando tanto investimentos no setor energético quanto a adoção de práticas mais ecológicas pelos consumidores​​.</p>
+                <aside>
+                    <p>Artigo escrito por Fxlipemac</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+         </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Fxlipemac</p>
+    </footer>
+</body>
+</html>
